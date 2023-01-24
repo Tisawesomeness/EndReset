@@ -1,0 +1,20 @@
+name: EndReset
+version: '${version}'
+description: "A utility plugin to assist resetting the End"
+main: com.tisawesomeness.endreset.EndReset
+api-version: 1.19
+authors: [ Tis_awesomeness ]
+commands:
+  whosindanger:
+    description: "Look up players outside the main end island"
+    aliases: [ whosind, whosin, wid ]
+    permission: endreset.whosindanger
+    permission-message: "§cYou do not have permission to use this command."
+permissions:
+  endreset.*:
+    default: op
+    children:
+      endreset.whosindanger: true
+  endreset.whosindanger:
+    description: "Allows using the /whosindanger command"
+    default: op
