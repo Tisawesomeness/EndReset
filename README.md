@@ -1,8 +1,6 @@
 # EndReset
 
-A utility plugin with a couple features to assist server owners resetting the End dimension. Currently in development.
-
-The plugin will log players outside the main End island on startup.
+A utility plugin with a couple features to assist server owners resetting the End dimension (and other worlds). Currently in development.
 
 ## Commands
 
